@@ -1,0 +1,51 @@
+#nice-main-table {
+    background:#a19191;
+    width: 100%;
+    resize: both;
+}
+
+#nice-main-table>thead {
+    background: #9c9797;
+}
+
+#nice-main-table .odd-row{
+    background: #7a6868;
+}
+
+#nice-table-wrapper .show-all-colums-btn{
+    margin-left:30px;
+}
+
+
+#nice-table-wrapper .nice-table-toolbox {
+    float:left;
+}
+
+#nice-table-wrapper .sort-buttons-wrapper {
+    float:right;
+    display: flex;
+    flex-direction: column;
+}
+
+#nice-table-wrapper  .hidde-button {
+    margin-left:4px;
+    background: #cad430;
+}
+
+#nice-table-wrapper .sort-buttons-wrapper>div {
+    display:inline-block;
+    color:#444;
+    background:#DDD;
+    cursor:pointer;
+    vertical-align:middle;
+    max-width: 100px;
+    padding: 2px;
+    text-align: center;
+    height: 11px;
+    font-size: 12px;
+}
+
+#nice-table-wrapper  .sort-buttons-wrapper>div:active {
+    color:red;
+    box-shadow: 0 0 5px -1px rgba(0,0,0,0.6);
+}
